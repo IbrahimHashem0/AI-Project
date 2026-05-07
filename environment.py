@@ -1,10 +1,6 @@
 import numpy as np
 from collections import deque
 
-# ============================================================================
-# PART 1: ENVIRONMENT SETUP AND BFS PATHFINDING
-# ============================================================================
-
 def create_env():
     grid = np.zeros((20, 20), dtype=int)
 

@@ -6,10 +6,6 @@ from visualization import visualize_solution
 def calculate_greedy_solution(distance_matrix):
     """
     Calculates a greedy (nearest neighbor) solution for comparison.
-
-    Returns:
-        greedy_order: list of victim IDs in greedy order
-        greedy_distance: total distance for greedy solution
     """
     greedy_order = []
     remaining = set(range(1, 6))  # Victims 1-5
@@ -26,10 +22,6 @@ def calculate_greedy_solution(distance_matrix):
 
     return greedy_order, total_distance
 
-
-# ============================================================================
-# PART 4: MAIN EXECUTION
-# ============================================================================
 
 if __name__ == "__main__":
     print("\n" + "=" * 60)

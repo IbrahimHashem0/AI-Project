@@ -2,10 +2,6 @@ import numpy as np
 import random
 import time
 
-# ============================================================================
-# PART 2: GENETIC ALGORITHM IMPLEMENTATION
-# ============================================================================
-
 class GeneticAlgorithm:
     """
     Genetic Algorithm for optimizing the rescue mission order.
