@@ -16,8 +16,8 @@ class GeneticAlgorithm:
         Initialize the Genetic Algorithm.
         """
         self.distance_matrix = distance_matrix
-        self.population_size = population_size
-        self.mutation_rate = mutation_rate
+        self.population_size = population_size # responsible for Search Space Coverage
+        self.mutation_rate = mutation_rate # responsible for Genetic Diversity
         self.crossover_rate = crossover_rate
         self.elite_size = elite_size
 
@@ -65,7 +65,7 @@ class GeneticAlgorithm:
         """
         Tournament Selection: randomly select K individuals and pick the best.
         """
-        tournament_size = 5
+        tournament_size = 3
         tournament_indices = random.sample(range(len(population)), tournament_size)
 
         # Find the best chromosome in the tournament (lowest fitness)
@@ -162,10 +162,16 @@ class GeneticAlgorithm:
                 best_overall_chromosome = best_chromosome.copy()
 
             # Print progress
-            if verbose and (generation % 50 == 0 or generation == generations - 1):
+            if verbose and (generation % 10 == 0 or generation == generations - 1):
+                worst_idx = fitnesses.index(max(fitnesses))
+                worst_chromosome = population[worst_idx]
+
                 print(f"Generation {generation:3d} | Best Fitness: {best_fitness:.2f} | "
                       f"Avg Fitness: {np.mean(fitnesses):.2f} | "
                       f"Best Order: {best_chromosome}")
+
+                print(
+                    f"   --> $DEBUG$: Mutation trying other paths: {worst_chromosome} (Fitness: {fitnesses[worst_idx]})")
 
             # Elitism: preserve top chromosomes
             sorted_indices = sorted(range(len(fitnesses)), key=lambda i: fitnesses[i])

@@ -52,13 +52,13 @@ if __name__ == "__main__":
     print("\nStep 4: Running Genetic Algorithm optimization...")
     ga = GeneticAlgorithm(
         distance_matrix=distance_matrix,
-        population_size=100,
+        population_size=50,
         mutation_rate=0.15,
         crossover_rate=0.8,
-        elite_size=10
+        elite_size=5
     )
 
-    best_order, best_distance = ga.evolve(generations=500, verbose=True)
+    best_order, best_distance = ga.evolve(generations=150, verbose=True)
 
     # Step 5: Compare results
     print("\n" + "=" * 60)

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0691a9a-bcf6-425d-96af-077f6d08e095" name="Changes" comment="Update">
+    <list default="true" id="f0691a9a-bcf6-425d-96af-077f6d08e095" name="Changes" comment="Update Report files">
       <change afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/genetic_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$ Projects Specification.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="15" />
+    <option name="cachedIndexableFilesCount" value="18" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -59,6 +57,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.genetic_algorithm.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -95,7 +94,15 @@
       <workItem from="1777828874499" duration="2926000" />
       <workItem from="1778065750126" duration="154000" />
       <workItem from="1778065918873" duration="4582000" />
-      <workItem from="1778158135612" duration="67000" />
+      <workItem from="1778158135612" duration="466000" />
+      <workItem from="1778158615957" duration="90000" />
+      <workItem from="1778170724771" duration="466000" />
+      <workItem from="1778236316355" duration="1228000" />
+      <workItem from="1778600164598" duration="86000" />
+      <workItem from="1778600266474" duration="2057000" />
+      <workItem from="1778604777387" duration="54000" />
+      <workItem from="1778642221285" duration="3688000" />
+      <workItem from="1778646695249" duration="7874000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -105,7 +112,39 @@
       <option name="project" value="LOCAL" />
       <updated>1778069791661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <option name="closed" value="true" />
+      <created>1778158232630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778158232630</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Report.docx to the project">
+      <option name="closed" value="true" />
+      <created>1778158383513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778158383513</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Report.pdf to the project">
+      <option name="closed" value="true" />
+      <created>1778170803719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778170803719</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update Report files">
+      <option name="closed" value="true" />
+      <created>1778237033574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778237033574</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,9 +152,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Add Report.docx to the project" />
+    <MESSAGE value="Add Report.pdf to the project" />
+    <MESSAGE value="Update Report files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Report files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Project$main.coverage" NAME="main Coverage Results" MODIFIED="1778068279527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project$genetic_algorithm.coverage" NAME="genetic_algorithm Coverage Results" MODIFIED="1778654981081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project$main.coverage" NAME="main Coverage Results" MODIFIED="1778654983455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
